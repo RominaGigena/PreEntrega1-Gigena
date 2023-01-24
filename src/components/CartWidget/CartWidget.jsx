@@ -5,7 +5,7 @@ const CartWidget = ({cantCarrito}) => {
     return (
         <>
         <p>{cantCarrito}</p>
-        <FaCartPlus size={'40px'} color={'green'}/>
+        <FaCartPlus size={'40px'} color={'white'}/>
         </>
     );
 }
