@@ -1,11 +1,11 @@
 import Navbar from "./components/Navbar/Navbar";
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import {ItemListContainer} from "./components/ItemListContainer/ItemListContainer";
 
-function App() {
+const App = () => {
   return (
     <>
       <Navbar/>
-      <ItemListContainer greeting={'Bienvenidos a la tienda online'}/> 
+      <ItemListContainer/> 
     </> 
   );
 }
